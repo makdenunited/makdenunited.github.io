@@ -1,0 +1,44 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,italic,500,700,900&display=swap");
+
+body {
+  font-family: "roboto";
+  line-height: 1.5;
+  background: hsl(0, 0%, 98%) url(../img/background.jpg)  ;
+  background-size: 100%;
+  
+  color: #333333;
+
+  width: 980px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+h1::before{
+  content: url(../img/man.png);
+  padding: 0px 20px 0px 0px;
+
+}
+
+main > h2 {
+  text-align: center;
+  font-size: 25px;
+}
+p {
+   font-weight: bolder;
+   visibility:visible;
+}
+.about-me:hover {
+  background-color: rgba(128, 128, 128, 0.548);
+  
+}
+h2::before{
+  content: "";
+  background: url(../img/learn.svg);
+  position: ab;
+  
+}
